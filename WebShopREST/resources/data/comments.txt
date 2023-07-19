@@ -1,0 +1,7 @@
+1;approved;Nikola;1;Great although a lot of people;4;false
+2;rejected;meki;1;Awesomei love it;5;false
+3;approved;meki;1;Also i love the coffe here;5;false
+4;rejected;meki;1;Very nice;4;false
+5;approved;meki;1;Nice cars;3;false
+6;approved;meki;10;okay place;2;false
+7;waiting;Petar;10;I like this place;4;false

@@ -1,0 +1,9 @@
+1;Audi;R8;250.0;CAR;5;AUTOMATIC;PETROL;250.0;4;4;opis;summer0.jpg;AVAILABLE;false
+2;Honda;Civic;250.0;VAN;4;AUTOMATIC;DIESEL;250.0;4;4;opis;summer0.jpg;RENTED;false
+3;Toyota;Avalon;250.0;CAR;5;AUTOMATIC;DIESEL;250.0;4;4;opis;summer0.jpg;AVAILABLE;false
+4;Mazda;MX-5;250.0;CAR;5;AUTOMATIC;PETROL;250.0;4;4;opis;summer0.jpg;AVAILABLE;false
+5;Kia;Niro;250.0;CAR;5;AUTOMATIC;DIESEL;250.0;4;4;opis;summer0.jpg;AVAILABLE;false
+6;BMW;M3;250.0;CAR;5;AUTOMATIC;ELECTRIC;250.0;4;4;opis;summer0.jpg;AVAILABLE;false
+7;Renault;Twingo;250.0;CAR;1;AUTOMATIC;DIESEL;250.0;4;4;opis;summer0.jpg;AVAILABLE;false
+8;Opel;Astra;250.0;CAR;6;AUTOMATIC;DIESEL;251.0;4;4;opis;summer0.jpg;AVAILABLE;true
+9;Audi;R8;250.0;CAR;null;AUTOMATIC;PETROL;250.0;4;4;opis;summer0.jpg;AVAILABLE;false

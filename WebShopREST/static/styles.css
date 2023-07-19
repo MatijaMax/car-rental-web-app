@@ -1,0 +1,794 @@
+/*#region Mainpage style*/
+
+.mainpage-button {
+    width: 140px;
+    height: 40px;
+    border-radius: 8px;
+    background: linear-gradient(to bottom, lightblue 0%,#389ed5 100%); /* W3C */
+    border: none;
+    position: relative;
+    border-bottom: 4px solid #2b8bc6;
+    color: #fbfbfb;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.4);
+    font-size: 18px;
+    box-shadow: 0px 3px 0px 0px rgba(0,0,0,.2);
+    cursor: pointer;
+}
+
+#signin-buttons {
+    text-align: center;
+}
+
+
+.search-group {
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.custom-select{
+  width: 99.5%;
+  height: 28px;
+  box-sizing: border-box;
+}
+
+.search-group > div {
+    margin-left: 10px;
+    width: 150px;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.smaller-image {
+  width: 315px; /* Adjust the width as per your requirements */
+  height: 200px; /* Adjust the height as per your requirements */
+}
+.form-table td {
+		padding-bottom: 10px;
+		margin-right:10px;
+	}
+
+.search-group .searchName-group {
+    margin-left: 0px;
+}
+
+.search-group .searchName-group #nameButton {
+    margin-left: 0px;
+    border: thin solid black;
+}
+
+.search-group .searchType-group {
+    margin-left: 5px;
+}
+
+.search-group .searchType-group #typeButton {
+    margin-left: 0px;
+    visibility: hidden;
+}
+
+.search-group .searchLocation-group {
+    margin-left: 5px;
+}
+
+.search-group .searchLocation-group #locationButton {
+    margin-left: 0px;
+}
+
+.search-group .searchLocation-group #locationButton:hover {
+    color: white;
+}
+
+.search-group .searchRating-group {
+    margin-left: 5px;
+}
+
+.search-group .searchRating-group #ratingButton {
+    margin-left: 0px;
+    margin-right: 5px;
+}
+
+.search-group .searchRating-group #ratingButton:hover {
+    color: white;
+}
+
+.sort-group {
+    padding: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.sort-group > input {
+    margin-left: 10px;
+    width: 150px;
+    flex-basis: 100%;
+}
+
+#first-input {
+    margin-left: 0px;
+}
+
+#list-div {
+    display: flex;
+    margin-top: 20px;
+    border: thin solid black;
+    padding: 10px;
+    height: 225px;
+}
+#list-div1 {
+    display: flex;
+    margin-top: 20px;
+    border: thin solid black;
+    padding: 10px;
+    height: 300px;
+}
+#list-div2 {
+    display: flex;
+    margin-top: 20px;
+    border: thin solid black;
+    padding: 10px;
+    height: 340px;
+}
+
+#list-div:hover {
+    border: thin solid blue;
+    background-color: aliceblue;
+}
+
+/*#region img-div style*/
+#list-div .img-div {
+    width: 30%;
+}
+
+#list-div .img-div img {
+    width: 100%;
+    height: 100%;
+    border: thick #bfbfbf solid;
+}
+#list-div1 .img-div {
+    width: 45%;
+}
+
+#list-div1 .img-div img {
+    width: 100%;
+    height: 100%;
+    border: thick #bfbfbf solid;
+}
+#list-div2 .img-div {
+    width: 45%;
+}
+
+#list-div2 .img-div img {
+    width: 100%;
+    height: 100%;
+    border: thick #bfbfbf solid;
+}
+/*#endregion*/
+
+/*#region info-div style*/
+#list-div #info-div {
+    width: 100%;
+}
+#list-div1 #info-div {
+    width: 100%;
+}
+
+#profiles-div {
+	width: 50%;
+    height: 250px;
+    border-width: 2px;
+    border-style:ridge;
+    margin: 0 auto;
+
+    margin-top: 20px;
+}
+
+#list-div #info-div .nav-link{
+    color: black;
+    font-weight: 500;
+    font-size: 48px;
+    width: fit-content;
+    font-family: 'Lora';
+
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+#list-div1 #info-div .nav-link{
+    color: black;
+    font-weight: 500;
+    font-size: 48px;
+    width: fit-content;
+    font-family: 'Lora';
+
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+}
+
+.so-p {
+    margin: 0;
+    padding: 0;
+
+    margin-left: 10px;
+}
+
+#title-div {
+    display: flex;
+}
+
+#title-div > p {
+    font-weight: bold;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-left: auto;
+    height: 100%;
+}
+
+.separator {
+    padding: 0;
+    margin: 0;
+    margin-left: 10px;
+}
+/*#endregion*/
+
+#so-div {
+    width: 1020px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding: 20px;
+    border: solid thick black;
+}
+
+#navbar-maindiv {
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    border-bottom: solid thick black;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+#navbar {
+    font-size: large;
+}
+
+.view {
+    margin-top: 110px;
+}
+
+#login-div {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid thick black;
+}
+
+#profile-div {
+	width: 450;
+	height: 500;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border: solid thick black;	
+	
+}
+#login-div > form {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#register-div {
+    width: 400px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: solid thick black;
+    
+}
+
+#register-div .inner-div {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#username-div  {
+    width: 100%;
+    /* margin-left: auto; */
+}
+
+#dropdown-div {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+#dropdownMenuButton1 {
+    width: 120px;
+}
+
+.dropdown-menu {
+    min-width: 100%;
+    height: fit-content;
+    padding: 0;
+}
+
+#loginButton {
+    width: 120px;
+    margin-right: 10px;
+}
+
+#register-button {
+    width: 120px;
+    margin-right: 20px;
+}
+
+#profile-button {
+    width: 100%;
+}
+
+#logout-button {
+    width: 100%;
+}
+
+#home-navbar {
+    color: black;
+    display: flex;
+}
+
+#home-navbar > p {
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+#membership-button {
+    margin-top: 5px;
+    text-align: center;
+}
+
+#createFacility-div {
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+}
+/*#endregion*/
+
+@font-face {
+    font-family: 'Lora', serif;
+    src: url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap'); /*URL to font*/
+}
+
+/*#endregion*/
+
+/*#region facilityPage style*/
+
+.facilityPage-div {
+    width: 1200px;
+    height: 2000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+.facilityPage-div > h1 {
+    height: 120px;
+    font-weight: bold;
+    font-size: 500;
+}
+
+.infoDiv {
+    width: 1047px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#separator {
+    border-bottom: thick solid black;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+#titleDiv {
+    display: flex;
+    text-align: left;
+}
+
+#titleDiv > div {
+    margin-left: 20px;
+    width: 100%;
+}
+
+#titleDiv > div > h1 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#separator-title {
+    border-bottom: thick solid black;
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+#sf-rating {
+    font-size: 28px;
+    font-weight: 500;
+    margin-left: 5px;
+    margin-top: 5px;
+    padding: 0;
+}
+
+#ratingDiv {
+    display: flex;
+    margin-top: 10px;
+}
+
+#sf-status {
+    /* background-color: #ffca05;
+    border: thick solid #ffb72f; */
+    background-color: #abdefc;
+    border: thick solid #25a6f3;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: auto;
+    padding: 5px;
+    color: #222e4b;
+}
+
+#titleDiv > img {
+    margin-top: 5px;
+    width: 150px;
+    height: 150px;
+    border: thick #bfbfbf solid;
+}
+
+#carouselExampleIndicators {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.d-block {
+    height: 700px;
+    border: thick solid black;
+}
+.dblock1 {
+	height: 200px;
+}
+
+
+.horizontal-div {
+    /* background-color: lightblue; */
+    display: flex;
+    flex-basis: 100%;
+    margin-top: 30px;
+}
+
+#separator-hours {
+    border-bottom: thick solid black;
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#workingHoursDiv {
+    width: 100%;
+    /* background-color: lightgoldenrodyellow; */
+    margin-right: 125px;
+}
+
+#locationDiv {
+    width: 100%;
+    /* background-color: lightcoral; */
+}
+
+#address-div {
+    display: flex;
+}
+
+.daysDiv {
+    display: flex;
+    flex-basis: 100%;
+}
+
+.daysDiv .days > p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.daysDiv .hours > p {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0;
+}
+
+.content-class-lead {
+    background-color: #f7f7f7;
+    border: thick solid #cdcdcd;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 5px;
+    color: #222e4b;
+}
+
+.content-class {
+    background-color: #f7f7f7;
+    border: thick solid #cdcdcd;
+    border-radius: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px;
+    color: #222e4b;
+}
+
+/*#endregion*/
+
+/* The switch - the box around the slider */
+#switchLabel {
+	position:absolute;
+    margin-top: 24px;
+	
+}
+
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+  margin-left: 165px;
+  margin-top: 20px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+
+#cancel-button {
+    margin: auto;
+}
+
+#membershipPage-div {
+    width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#buttons-div {
+    width: fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    position: relative;
+}
+
+#enroll-button {
+    width: 500px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#activeMembership-button {
+    width: 500px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#enroll-div {
+    width: 1200px;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    border: thick solid black;
+}
+
+
+#all-comment-div{
+    width: 1047px;
+    margin: auto;
+}
+
+
+#comment-div {
+    width: 60%;
+    border-style: solid;
+    border-width: 2px;
+    height: auto;
+    margin: auto;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+#typeOfMembership-div {
+    display: flex;
+    flex-basis: 100%;
+    /* border: thick solid black; */
+    width: 95%;
+    height:  fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.membership-type-div {
+    width: 350px;
+    height: 500px;
+    border: thick black solid;
+    /* top: 50%;
+    transform: translateY(-50%);
+    position: relative; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.membership-type-div:hover {
+    filter: brightness(110%);
+    cursor: pointer;
+}
+
+.membership-type-div > h1 {
+    text-align: center;
+}
+
+.separator-membershiptype {
+    border-bottom: thick solid black;
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.memebership-info-p {
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.meminfo-div {
+    width: 100%;
+    height: max-content;
+    display: block;
+}
+
+.checkmark {
+    width: 64px;
+    height: 64px;
+    margin-left: auto;
+}
+
+#payMembership-button {
+    width: 100%;
+    height: 100%;
+}
+
+#schedule-button {
+    width: 100%;
+    height: 100%;
+}
+
+.list-group-item:hover {
+    cursor: pointer;
+
+}
+
+  .login-container {
+    text-align: center;
+    width: 10%;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+  }
+  
+  .login-container input[type="text"],
+  .login-container input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 33px;
+  }
+  
+  .login-container button {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border-radius: 30px;
+  }
+  
+  .create-user-button {
+    margin-top: 10px;
+  }

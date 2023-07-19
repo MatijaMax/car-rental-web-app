@@ -1,0 +1,10 @@
+1;Summer Wheels;true;0.0;0.0;Bulevar Oslobodjenja 72, Novi Sad, 21000;image1.png;4.5;08:00-21:00;1,2,3
+2;Drivepro;false;0.0;0.0;Liman 4, Novi Sad, 21000;image2.png;4.2;08:00-23:00;5,4,9
+3;On the move;false;0.0;0.0;Liman 4, Novi Sad, 21000;image3.jpg;3.9;08:00-23:00;6
+4;WheelsUp;false;0.0;0.0;Liman 4, Beograd, 11000;image4.jpg;4.8;08:00-23:00;7
+5;Crusader;true;0.0;0.0;Geri Karolja 5, Novi Sad, 21000;image4.jpg;3.5;08:00-23:00;8
+6;Summer Wheels;true;1.0;2.0;Bulevar Oslobodjenja 72, Novi Sad;image2.png;0.0;08:00-23:00;0
+7;Summer Wheels;true;1.0;2.0;Bulevar Oslobodjenja 72, Novi Sad;image2.png;0.0;08:00-23:00;0
+8;Summer Wheels;true;1.0;2.0;Bulevar Oslobodjenja 72, Novi Sad;image2.png;0.0;08:00-23:00;0
+9;TEST55;true;0.0;0.0;TEST55;zmijo.png;0.0;11:11-11:11;0
+10;Proba;true;0.0;0.0;proba, proba, 11111;summer1.png;0.0;11:11-11:11;0

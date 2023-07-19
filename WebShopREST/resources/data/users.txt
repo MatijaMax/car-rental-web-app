@@ -1,0 +1,26 @@
+RR;1221;ERE;ERE;MALE;2023-06-16;CUSTOMER;KONJINO;null;true;true;7
+A;a;aaaa;a;MALE;2023-06-13;ADMIN;null;null;false;false;7
+Uros;123;Uros;Obradovic;MALE;2023-05-30;MANAGER;1;null;false;false;0
+TESTER33;TESTER33;TESTER33;TESTER33;MALE;2023-07-06;CUSTOMER;null;BRONZE;false;false;0
+M;123;M;M;MALE;2023-06-08;ADMIN;null;null;false;false;5
+N;123;N;N;FEMALE;2023-06-09;ADMIN;null;null;false;false;5
+NoviKupac;m;m;m;MALE;2023-05-30;CUSTOMER;null;GOLD;false;true;1064
+TESTER5;TESTER5;TESTER5;TESTER5;FEMALE;2023-07-05;MANAGER;2;null;false;false;0
+NOBIBAJA;NOBIBAJA;NOBIBAJA;NOBIBAJA;MALE;2023-07-13;MANAGER;3;null;false;false;0
+noviMenadzer;a;a;a;MALE;2023-06-06;MANAGER;4;null;false;false;0
+Jovan;123;Jovan;Jovanovic;MALE;2023-05-30;MANAGER;5;null;false;false;0
+anjakov;anja;Anja;Kovacevic;FEMALE;2002-01-25;ADMIN;null;null;false;false;0
+mm;mm;mm;mm;MALE;2023-06-13;MANAGER;KONJINO;null;true;false;0
+uros111;uros111;uros;uros;MALE;2023-05-29;MANAGER;null;null;false;false;0
+Nikola;123;Nikola;Nikolic;MALE;2022-06-08;ADMIN;null;null;false;false;0
+Petar;1234;Petar;Petrovic;MALE;2022-06-22;ADMIN;null;null;false;false;0
+i;i;i;i;MALE;2023-05-30;MANAGER;null;null;false;false;0
+TESTER44;TESTER44;TESTER44;TESTER44;MALE;2023-07-05;CUSTOMER;null;null;false;false;0
+m;m;m;m;MALE;1221-12-12;MANAGER;9;null;false;false;0
+.;.;.;.;MALE;2023-06-13;MANAGER;10;null;false;false;0
+Novi Menadzer;m;m;m;MALE;2023-05-30;MANAGER;null;null;false;false;0
+r;r;r;r;MALE;2023-06-06;ADMIN;null;null;false;false;0
+Mirko;333;Mirko;Mirkovic;MALE;2023-06-29;CUSTOMER;KONJINO;null;true;true;0
+u;u;u;u;MALE;2023-06-06;MANAGER;null;null;false;false;0
+uros;uros;uros;uros;MALE;2023-05-29;MANAGER;null;null;false;false;0
+x;x;x;x;MALE;2023-06-20;ADMIN;null;null;false;false;0

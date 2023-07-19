@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="module" value="true"/>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0 (3)">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Gson/gson-2.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/IO/jackson-annotations-2.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/IO/jackson-core-2.9.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/IO/jackson-databind-2.9.10.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/IO/jjwt-api-0.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/IO/jjwt-jackson-0.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/javax.servlet-api-3.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-client-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-http-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-io-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-security-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-server-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-servlet-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-util-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-util-ajax-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-webapp-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/jetty-xml-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/spark-core-2.9.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/websocket-api-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/websocket-client-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/websocket-common-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/websocket-server-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Spark/websocket-servlet-9.4.48.v20220622.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/SFLJ/logback-3.0.0-RC1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/SFLJ/logback-core-1.2.10.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/SFLJ/jjwt-impl-0.11.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Anja/javaxt-core.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Anja/jjwt-gson-0.11.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Matija/Desktop/WEBINA/web-project/WebShopREST/libs/Anja/slf4j-simple-1.7.21.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
